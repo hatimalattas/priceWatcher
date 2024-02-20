@@ -12,5 +12,19 @@ competitor_listings = [
 our_listing = {"title": "برج داماك الرياض DAMAC Towers Riyadh",
                "link": "https://www.booking.com/hotel/sa/dmk-lryd.html"}
 
-one_bedroom_suite_names = ["One-Bedroom Suite", "One-Bedroom Apartment", "Junior Suite", "Superior Suite", "Deluxe Junior Suite"]
-two_bedroom_suite_names = ["Two-Bedroom Suite", "Budget Double or Twin Room", "Two-Bedroom Apartment"]
+
+rooms = [{"name": "King Studio", "space": 43, "category": "studio"},
+         {"name": "Double Room", "space": 45, "category": "studio"},
+         {"name": "Deluxe Room", "space": 45, "category": "studio"},
+         {"name": "Deluxe Studio", "space": 45, "category": "studio"},
+
+         {"name": "One-Bedroom Apartment", "space": 93, "category": "one_bedroom"},
+         {"name": "Junior Suite", "space": 90, "category": "one_bedroom"},
+         {"name": "Superior Suite", "space": 85, "category": "one_bedroom"},
+         {"name": "One-Bedroom Suite", "space": 96, "category": "one_bedroom"},
+         {"name": "Deluxe Junior Suite", "space": 85, "category": "one_bedroom"},
+
+         {"name": "Budget Double or Twin Room", "space": 120, "category": "two_bedroom"},
+         {"name": "Two-Bedroom Apartment", "space": 140, "category": "two_bedroom"},
+         {"name": "Two-Bedroom Suite", "space": 120, "category": "two_bedroom"},
+         {"name": "Two-Bedroom Suite", "space": 140, "category": "two_bedroom"}]
