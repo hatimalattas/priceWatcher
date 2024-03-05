@@ -12,11 +12,11 @@ competitor_listings = [
 our_listing = {"title": "برج داماك الرياض DAMAC Towers Riyadh",
                "link": "https://www.booking.com/hotel/sa/dmk-lryd.html"}
 
-
 rooms = [{"name": "King Studio", "space": 43, "category": "studio"},
          {"name": "Double Room", "space": 45, "category": "studio"},
          {"name": "Deluxe Room", "space": 45, "category": "studio"},
          {"name": "Deluxe Studio", "space": 45, "category": "studio"},
+         {"name": "Studio", "space": 45, "category": "studio"},
 
          {"name": "One-Bedroom Apartment", "space": 93, "category": "one_bedroom"},
          {"name": "Junior Suite", "space": 90, "category": "one_bedroom"},
@@ -24,7 +24,29 @@ rooms = [{"name": "King Studio", "space": 43, "category": "studio"},
          {"name": "One-Bedroom Suite", "space": 96, "category": "one_bedroom"},
          {"name": "Deluxe Junior Suite", "space": 85, "category": "one_bedroom"},
 
-         {"name": "Budget Double or Twin Room", "space": 120, "category": "two_bedroom"},
-         {"name": "Two-Bedroom Apartment", "space": 140, "category": "two_bedroom"},
-         {"name": "Two-Bedroom Suite", "space": 120, "category": "two_bedroom"},
-         {"name": "Two-Bedroom Suite", "space": 140, "category": "two_bedroom"}]
+         {"name": "Budget Double or Twin Room", "space": 120, "category": "two_bedroom_120"},
+         {"name": "Two-Bedroom Suite", "space": 120, "category": "two_bedroom_120"},
+
+         {"name": "Two-Bedroom Apartment", "space": 140, "category": "two_bedroom_140"},
+         {"name": "Two-Bedroom Suite", "space": 140, "category": "two_bedroom_140"}, ]
+
+
+def initialize_report_data():
+    return {
+        "Studio": {
+            "our_prices": [],
+            "competitors_prices": []
+        },
+        "One Bedroom": {
+            "our_prices": [],
+            "competitors_prices": []
+        },
+        "Two Bedroom 120": {
+            "our_prices": [],
+            "competitors_prices": []
+        },
+        "Two Bedroom 140": {
+            "our_prices": [],
+            "competitors_prices": []
+        }
+    }
